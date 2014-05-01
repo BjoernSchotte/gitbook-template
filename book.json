@@ -4,5 +4,18 @@
         "disqus": {
             "shortName": "BUCHNAME"
         }
+    },
+    "links": {
+        "home": null,
+
+        "about": "https://www.xing.com/profile/Bjoern_Schotte",
+        "issues": null,
+        "edit": null,
+
+        "sharing": {
+            "google": null,
+            "facebook": false,
+            "twitter": null
+        }
     }
 }
