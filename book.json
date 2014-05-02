@@ -14,7 +14,7 @@
 
         "sharing": {
             "google": null,
-            "facebook": false,
+            "facebook": null,
             "twitter": null
         }
     }
