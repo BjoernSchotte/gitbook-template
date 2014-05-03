@@ -25,6 +25,8 @@ Die book.json entsprechend anpassen und zum Beispiel einzelne Plugins entfernen.
 
 shortName im disqus Plugin entspricht dem shortName, der in Disqus konfiguriert ist.
 
+Dokumentation zum richquote Plugin unter https://github.com/erixtekila/gitbook-plugin-richquotes
+
 Lizenz
 ======
 
