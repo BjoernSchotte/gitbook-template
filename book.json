@@ -1,5 +1,5 @@
 {
-    "plugins": ["disqus"],
+    "plugins": ["disqus", "richquotes"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "BUCHNAME"
