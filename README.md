@@ -24,3 +24,8 @@ $ sudo npm install -g gitbook@0.4.2
 Die book.json entsprechend anpassen und zum Beispiel einzelne Plugins entfernen.
 
 shortName im disqus Plugin entspricht dem shortName, der in Disqus konfiguriert ist.
+
+Lizenz
+======
+
+Dieses Buch steht unter [folgender Lizenz](LICENSE.md).
