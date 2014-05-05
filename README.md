@@ -4,8 +4,8 @@ Buchtitel
 Dies ist ein Buchtemplate. Teste es mit:
 
 ````
-$ sudo npm install -g gitbook gitbook-pdf
-$ sudo npm install gitbook-plugin-disqus gitbook-plugin-richquotes
+$ sudo npm install -g gitbook gitbook-pdf grunt
+$ sudo npm install gitbook-plugin-disqus gitbook-plugin-richquotes grunt-gitbook grunt-gh-pages grunt-contrib-clean
 $ gitbook serve
 ```
 
