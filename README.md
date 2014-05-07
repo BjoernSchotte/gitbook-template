@@ -27,6 +27,16 @@ shortName im disqus Plugin entspricht dem shortName, der in Disqus konfiguriert 
 
 Dokumentation zum richquote Plugin unter https://github.com/erixtekila/gitbook-plugin-richquotes
 
+Buch via grunt bauen
+======
+
+Mittels grunt kann das Buch direkt als HTML Output in einen gh-pages Branch gebaut werden.
+
+````
+$ grunt publish
+```
+
+
 Lizenz
 ======
 
