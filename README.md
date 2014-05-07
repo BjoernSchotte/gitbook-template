@@ -30,7 +30,8 @@ Dokumentation zum richquote Plugin unter https://github.com/erixtekila/gitbook-p
 Buch via grunt bauen
 ======
 
-Mittels grunt kann das Buch direkt als HTML Output in einen gh-pages Branch gebaut werden.
+Mittels grunt kann das Buch direkt als HTML Output in einen gh-pages Branch gebaut werden. Bitte
+beachten, das Gruntfile.js mit der github Angabe abzuändern.
 
 ````
 $ grunt publish
