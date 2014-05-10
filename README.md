@@ -1,7 +1,11 @@
 Buchtitel
 =======
 
-Dies ist ein Buchtemplate. Teste es mit:
+This is a template for writing books with gitbook. Grundfile.js was heavily inspired by
+the JavaScript book at https://github.com/GitbookIO/javascript
+
+Pre-Requisites
+=======
 
 ````
 $ sudo npm install -g gitbook gitbook-pdf grunt
@@ -9,36 +13,38 @@ $ sudo npm install gitbook-plugin-disqus gitbook-plugin-richquotes grunt-gitbook
 $ gitbook serve
 ```
 
-Bitte beachten
+Notice on older gitbook versions
 ========
 
-Bitte mindestens gitbook V0.4.2 benutzen, sonst funktionieren geänderte Link-Konfigurationen in der book.json nicht.
+Please use at least gitbook V0.4.2 or higher. Otherwise, changed links in book.js won't work.
 
-Wenn du genau diese Version installieren willst, so nutze
+If you want to install gitbook in version 0.4.2, type
 
 ````
 $ sudo npm install -g gitbook@0.4.2
 ```
 
 
-Die book.json entsprechend anpassen und zum Beispiel einzelne Plugins entfernen.
+Customization
+========
 
-shortName im disqus Plugin entspricht dem shortName, der in Disqus konfiguriert ist.
+Adapt book.json to your needs.
 
-Dokumentation zum richquote Plugin unter https://github.com/erixtekila/gitbook-plugin-richquotes
+**Note:** shortName for disqus plugins equals to the shortname of your http://diqus.com configuration.
 
-Buch via grunt bauen
+Please finde documentation for the richquote Plugin at https://github.com/erixtekila/gitbook-plugin-richquotes
+
+Build the book with grunt
 ======
 
-Mittels grunt kann das Buch direkt als HTML Output in einen gh-pages Branch gebaut werden. Bitte
-beachten, das Gruntfile.js mit der github Angabe abzuändern.
+With grunt the book can be published directly to a gh-pages branch on your github repo:
 
 ````
 $ grunt publish
 ```
 
 
-Lizenz
+License
 ======
 
-Dieses Buch steht unter [folgender Lizenz](LICENSE.md).
+This book is published by the [following license](LICENSE.md).
