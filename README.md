@@ -1,4 +1,4 @@
-Buchtitel
+TITLE OF YOUR BOOK
 =======
 
 This is a template for writing books with gitbook. Grundfile.js was heavily inspired by
